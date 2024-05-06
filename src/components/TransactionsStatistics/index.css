@@ -1,0 +1,34 @@
+/* index.css */
+
+.statistics-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+}
+
+.statistics-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-item {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 4px;
+}
+
+.statistics-item h3 {
+  margin-bottom: 10px;
+  color: #007bff; 
+}
+
+.statistics-item p {
+  color: #333;
+  font-size: 18px;
+}
